@@ -2,7 +2,7 @@
 # DOCKER BUILD: Dockerfile.g3wsuite-deps.ltr.dockerfile
 ##
 
-name: Build dependencies
+name: Build G3W-SUITE LTR dependencies
 
 on:
   push:

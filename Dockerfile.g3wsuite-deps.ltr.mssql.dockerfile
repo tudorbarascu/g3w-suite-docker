@@ -42,8 +42,8 @@ RUN curl -sS https://download.qgis.org/downloads/qgis-archive-keyring.gpg > /etc
 
 # MSSQL
 RUN curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add && \
-    echo "deb https://packages.microsoft.com/ubuntu/24.04/prod jammy main" >> /etc/apt/sources.list && \
-    apt update && ACCEPT_EULA=Y apt install -y msodbcsql18 mssql-tools
+    echo "deb https://packages.microsoft.com/ubuntu/24.04/prod noble main" >> /etc/apt/sources.list && \
+    apt update && ACCEPT_EULA=Y apt install -y msodbcsql18 mssql-tools18
 
 # Yarn
 RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - && \

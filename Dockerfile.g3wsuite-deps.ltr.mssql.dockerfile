@@ -6,7 +6,7 @@
 # AGREEMENT FOR THE MICROSOFT SOFTWARE (see: ACCEPT_EULA=Y)
 ##
 
-FROM ubuntu:jammy
+FROM ubuntu:noble
 
 LABEL maintainer="Gis3w" \
       Description="Image used to prepare build requirements for g3w-suite docker images" \

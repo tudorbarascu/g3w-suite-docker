@@ -125,7 +125,7 @@ HUEY = {
 
 USE_X_FORWARDED_HOST = True
 
-ALLOWED_HOSTS = "*"
+ALLOWED_HOSTS = ["*"]
 
 # Is required by caching module
 QDJANGO_SERVER_URL = 'http://localhost:8000'

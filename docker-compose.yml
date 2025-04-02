@@ -31,7 +31,7 @@ services:
     environment:
       - DISPLAY=:99
       - G3WSUITE_ADMIN_USERNAME
-      - G3WSUITE_ADMIN_PASS
+      - G3WSUITE_ADMIN_PASSWORD
       - G3WSUITE_TILECACHE_PATH
       - G3WSUITE_POSTGRES_DBNAME
       - G3WSUITE_POSTGRES_USER
@@ -52,8 +52,6 @@ services:
       - QGIS_SERVER_LOG_FILE
       - QGIS_SERVER_LOG_LEVEL
       - WEBGIS_PUBLIC_HOSTNAME
-      - G3WSUITE_ADMIN_USERNAME
-      - G3WSUITE_ADMIN_PASSWORD
     expose:
       - "8000"
     restart: always
